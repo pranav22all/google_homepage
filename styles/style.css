@@ -1,0 +1,64 @@
+ul{
+	list-style-type: none; 
+	margin: 0;
+	padding: 0; /* shifting things around can do a lot w/ padding */ 
+	overflow: hidden;
+	background: white;
+}
+
+li,a{
+	font-family: arial,sans-serif;
+	font-size: 12px; 
+}
+
+img{
+	display: table-cell;
+	vertical-align: middle; 
+	margin: 200px auto 0px auto;
+	/* Not really the best way to center look into better ways? */
+}
+img:after{
+	clear: both;
+}
+
+div.searchbar{
+	text-align: center; 
+	margin: 10px auto 0px auto;
+
+}
+div.button_holder{
+	text-align: center; 
+	margin: 10px auto 390px auto;
+}
+
+ul.lower{
+	list-style-type: none; 
+	margin: 0;
+	border: 0;
+	padding: 0; /* shifting things around can do a lot w/ padding */ 
+	overflow: hidden;
+	background: #f2f2f2;
+}
+
+li.right{
+	float: right; 
+	display: table-cell;
+	text-align: center;
+	width: 80px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: grey;
+}
+li.left{
+	float: left; 
+	display: table-cell;
+	text-align: center;
+	width: 80px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: grey;
+}
